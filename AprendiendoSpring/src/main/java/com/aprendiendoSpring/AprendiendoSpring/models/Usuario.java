@@ -6,7 +6,16 @@ public class Usuario {
     private String nombre;
     private String apellido;
     private String email;
+    private String telefono;
     private String contraseña;
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
 
     public int getId() {
         return id;
